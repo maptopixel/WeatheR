@@ -9,14 +9,13 @@
 #' estimateRainfallWithInterpolation()
 
 #This needs some restructuring to remove the watershed input (this should be a second analysis step)
-estimateRainfallWithInterpolation<- function(merged,datesList,watershed){
+estimateRainfallWithInterpolation<- function(merged,datesList,watershed) {
   #got to do this to make sure spatstat / gstat clash is avoided
   detach(package:gstat)
   library(gstat)
 
   library(plyr)
   library(automap)
-
 
   saveToTempFile = TRUE
 
