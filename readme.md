@@ -1,5 +1,5 @@
 # WeatheR package #
-## Some R functions for wrangling Weather Underground, Met Office, Environment Agency rainfall data##
+### Some R functions for wrangling Weather Underground, Met Office, Environment Agency rainfall data##
 
 The scripts process data from:
 
