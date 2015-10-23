@@ -5,7 +5,9 @@ The scripts process data from:
 
 * UK MIDAS datasets, as retrieved from NERC BADC Web Processing Service
 
-* Weather Underground API
+* Weather Underground, as retrieved from the WU API
+
+* Environment Agency, as sourced from local EA offices as 15 minute rainfall measurements CVS
 
 The functions are:
 
@@ -17,7 +19,7 @@ The functions are:
 
 * getHistoryForLocationsWU.R - use for downloading and processing (aggregating) Weather Underground data. Data are downloaded (and cached) as JSON files and processed in the same step.
 
-* getLocationsWU.R - creates a spatial dataset of personal weather station points from the WU api
+* getLocationsWU.R - creates a spatial dataset of personal weather station points from the WU API
 
 * arealInterpolation.R - computes the weighted mean of polygon attribute values, where weighting is based on area contribution
 
